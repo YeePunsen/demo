@@ -1,0 +1,152 @@
+#header{
+	width: 100%;
+	height: 40px;
+	background: #424242;
+	justify-content: space-around;
+    display: flex;
+    flex-flow: row;
+    position: fixed;
+    top: 40px;
+    z-index: 100;
+}
+.header-left{
+	width: 47%;
+	height: 40px;
+	color: white;
+	font-size: 18px;
+	font-family: "微软雅黑";
+	
+	text-align: left;
+	line-height: 40px;
+}
+.head-right{
+	width: 47%;
+	height: 40px;
+	display: flex;
+	flex-flow: row-reverse;
+}
+.right{
+	width: 160px;
+	height: 40px;
+     align-items: center;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+	
+}
+.search{
+	width: 25px;
+	height: 25px;
+	
+	background-image: url(../img/微信/搜索.svg);
+	background-size:cover;
+}
+.add{
+	width: 25px;
+	height: 25px;
+	background-image: url(../img/微信/加号.svg) ;
+	background-size:cover;
+	position: relative;
+}
+
+
+
+.add-list{
+	width: 150px;
+	height: 200px;
+	
+	position: absolute;
+	right: 1px;top: 32px;
+	display: flex;
+	flex-flow: column;
+	display: none;
+}
+.add-list1{
+	width: 150px;
+	height: 40px;
+	background: #616161;
+	display: flex;
+	flex-flow: row nowrap;
+}
+.add-list2{
+	width: 150px;
+	height: 40px;
+	background: #616161;
+	display: flex;
+	flex-flow: row nowrap;
+}
+.add-list3{
+	width: 150px;
+	height: 40px;
+	background: #616161;
+	display: flex;
+	flex-flow: row nowrap;
+}
+.add-list4{
+	width: 150px;
+	height: 40px;
+	background: #616161;
+	display: flex;
+	flex-flow: row nowrap;
+}
+.add-list5{
+	width: 150px;
+	height: 40px;
+	background: #616161;
+	display: flex;
+	flex-flow: row nowrap;
+}
+.add-list-pho{
+	width: 40px;
+	height: 40px;
+	
+}
+.add-list-pic{
+	width: 30px;
+	height: 30px;
+	background-image: url(../img/微信/发起群聊.svg);
+	background-size: contain;
+	margin-top: 5px;
+	margin-left: 5px ;
+}
+.add-list-pic2{
+	width: 30px;
+	height: 30px;
+	background-image: url(../img/微信/添加朋友.svg);
+	background-size: contain;
+	margin-top: 5px;
+	margin-left: 5px ;
+}
+.add-list-pic3{
+	width: 30px;
+	height: 30px;
+	background-image: url(../img/微信/扫一扫.svg);
+	background-size: contain;
+	margin-top: 5px;
+	margin-left: 5px ;
+}
+.add-list-pic4{
+	width: 30px;
+	height: 30px;
+	background-image:url(../img/微信/收付款.svg);
+	background-size: contain;
+	margin-top: 5px;
+	margin-left: 5px ;
+}
+.add-list-pic5{
+	width: 30px;
+	height: 30px;
+	background-image: url(../img/微信/帮助与反馈.svg);
+	background-size: contain;
+	margin-top: 5px;
+	margin-left: 5px ;
+}
+.add-list-text{
+	width: 110px;
+	height: 40px;
+	
+	line-height: 40px;
+	font-size: 15px;
+	color: whitesmoke;
+	font-family: "微软雅黑";
+}

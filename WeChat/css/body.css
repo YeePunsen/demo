@@ -1,0 +1,190 @@
+#list {
+	width: 100%;
+	height: 100%;
+	margin-top: 80px;
+	border-bottom: 60px;
+	flex-grow: 1;
+	display: none;
+}
+
+.content {
+	height: 64px;
+	border-top: 1px solid #BDBDBD;
+	border-bottom: 1px solid #BDBDBD;
+	align-items: center;
+	justify-content: space-between;
+	display: flex;
+	flex-flow: row nowrap;
+	padding: 0px 4px 0px 4px;
+	white-space: nowrap;
+	overflow: hidden;
+	
+}
+.content1 {
+	height: 64px;
+	border-top: 1px solid #BDBDBD;
+	border-bottom: 1px solid #BDBDBD;
+	align-items: center;
+	justify-content: space-between;
+	display: flex;
+	flex-flow: row nowrap;
+	padding: 0px 4px 0px 4px;
+	white-space: nowrap;
+	overflow: hidden;
+	margin-left: 0px;
+	
+}
+.pho {
+	width: 52px;
+	height: 52px;
+	background-image: url(../img/微信/fang.jpg);
+	border-radius: 7%;
+	background-size: cover;
+}
+
+.biaoji {
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	background: red;
+	text-align: center;
+	line-height: 14px;
+	color: white;
+	position: relative;
+	left: 45px;
+	top: -2px;
+}
+
+.content-right {
+	width: 90%;
+	height: 52px;
+	background: white;
+	display: flex;
+	
+}
+
+.text-right {
+	width: 65%;
+	height: 52px;
+	
+}
+
+.name {
+	width: 100%;
+	height: 30px;
+	text-align: left;
+	line-height: 30px;
+	text-indent: 10px;
+}
+
+.word {
+	width: 100%;
+	height: 22px;
+	text-align: left;
+	line-height: 22px;
+	text-indent: 10px;
+	font-size: smaller;
+	color: #757575;
+}
+
+.time {
+	width: 20%;
+	height: 52px;
+	text-align: right;
+	justify-content: space-around;
+	line-height: 25px;
+	color: #BDBDBD;
+	font-size: 5px;
+	
+}
+
+.foot {
+	height: 60px;
+	width: 100%;
+	align-items: center;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	position: fixed;
+	bottom: 0px;
+	background: #E0E0E0;
+	
+}
+
+.foot-list {
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	align-items:flex-end;
+	
+}
+
+.pic {
+	width: 30px;
+	height: 30px;
+	background-image: url(../img/微信/聊天-press.svg);
+	background-size: cover;
+	margin: 0 auto;
+	
+}
+
+.waiceng {
+	width: 60px;
+	height: 50px;
+	
+}
+
+.pic2 {
+	width: 30px;
+	height: 30px;
+	background-image: url(../img/微信/通讯录.svg);
+	background-size: cover;
+	margin: 0 auto;
+}
+
+.pic3 {
+	width: 30px;
+	height: 30px;
+	background-image: url(../img/微信/发现.svg);
+	background-size: cover;
+	margin: 0 auto;
+}
+
+.pic4 {
+	width: 30px;
+	height: 30px;
+	background-image: url(../img/微信/me.svg);
+	background-size: cover;
+	margin: 0 auto;
+}
+
+.foot-text {
+	width: 60px;
+	height: 20px;
+	font-size: 10px;
+	color: green;
+}
+
+.foot-text2 {
+	width: 60px;
+	height: 20px;
+	font-size: 10px;
+	color: #616161;
+}
+
+.foot-text3 {
+	width: 60px;
+	height: 20px;
+	font-size: 10px;
+	color: #616161
+}
+
+.foot-text4 {
+	width: 60px;
+	height: 20px;
+	font-size: 10px;
+	color: #616161;
+}
+

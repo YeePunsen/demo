@@ -1,0 +1,270 @@
+.fanhui {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+}
+
+.tubiao {
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 8px;
+	background-image: url(../img/返回.svg);
+	background-size: contain;
+}
+
+.header-left2 {
+	width: 47%;
+	height: 40px;
+	color: white;
+	display: flex;
+	flex-flow: row;
+}
+
+.peng {
+	width: 80px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	color: white;
+	font-size: 20px;
+	text-indent: 10px;
+}
+
+#zone {
+	width: 100%;
+	height: 100%;
+}
+
+.back {
+	width: 100%;
+	height: 280px;
+	background: url(../img/建筑-01.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.user {
+	height: 80px;
+	width: 90%;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-end;
+	position: relative;
+	top: 230px;
+}
+
+.username {
+	font-size: 16px;
+	color: whitesmoke;
+	display: flex;
+	align-items: center;
+}
+
+.user-pho {
+	width: 80px;
+	height: 80px;
+	background: lightcoral;
+	border: 1px solid white;
+}
+
+.user-pho img {
+	width: 80px;
+	height: 80px;
+}
+
+.friend-list {
+	width: 100%;
+	height: 320px;
+	border-bottom: 1px solid #BDBDBD;
+}
+
+#kong {
+	width: 100%;
+	height: 40px;
+	background: white;
+}
+
+.list-top {
+	width: 100%;
+	height: 60px;
+	display: flex;
+	flex-flow: row nowrap;
+	margin-top: 10px;
+}
+
+.friend-pic {
+	width: 60px;
+	height: 60px;
+	background: lightslategrey;
+	margin-left: 20px;
+}
+
+.person {
+	width: 60px;
+	height: 60px;
+	background-image: url(../img/微信/fang.jpg);
+	background-size: cover;
+}
+
+.person-all {
+	width: 100%;
+	height: 60px;
+}
+
+.person-name {
+	width: 100%;
+	height: 30px;
+	text-indent: 10px;
+	line-height: 30px;
+	font-weight: 800;
+	color: #3F51B5;
+}
+
+.person-text {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	text-indent: 10px;
+	font-size: 15px;
+}
+
+.people-pic {
+	width: 80%;
+	height: 120px;
+	margin-left: 80px;
+}
+
+.content-pic {
+	width: 250px;
+	height: 120px;
+	background-image: url(../img/等待.jpg);
+	background-size: cover;
+}
+
+.pic-time {
+	width: 100%;
+	height: 20px;
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.juti-time {
+	width: 50%;
+	height: 20px;
+	text-indent: 76px;
+	font-size: 5px;
+	line-height: 20px;
+	color: #9E9E9E;
+}
+
+.liuyan {
+	width: 50%;
+	height: 20px;
+	display: flex;
+	flex-flow: row-reverse wrap;
+}
+
+.liuyan-button {
+	width: 20px;
+	height: 20px;
+}
+
+.tu {
+	width: 20px;
+	height: 20px;
+	background-image: url(../img/回复区域.svg);
+	background-size: cover;
+	position: relative;
+}
+
+.zan {
+	width: 80%;
+	height: 50px;
+	background: #E0E0E0;
+	margin-left: 80px;
+}
+
+.zan-qu {
+	width: 80%;
+	height: 20px;
+	border-bottom: 1px solid #BDBDBD;
+	display: flex;
+}
+.aaa{
+	width: 160px;
+	height: 35px;
+	display: none;
+}
+.zan-text{
+	background: #424242;
+	position:absolute;
+	right: 30px;top: -10px; 
+	display: flex;
+}
+.zan-text-left{
+	width: 80px;
+	height: 35px;
+	
+	display: flex;
+}
+.zan-text-right{
+	width: 80px;
+	height: 35px;
+	
+	display: flex;
+}
+.zan-xin{
+	width: 20px;
+	height: 20px;
+	background-image: url(../img/微信/赞.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-top: 9px;
+	margin-left: 13px;
+}
+.zan-zi{
+	height: 20px;
+	width: 20px;
+	
+	margin-top: 5px;
+	color: white;
+	font-size: small;
+	line-height: 25px;
+	text-align: center;
+}
+.love {
+	width: 22px;
+	height: 22px;
+}
+
+.xin {
+	width: 17px;
+	height: 17px;
+	background-image: url(../img/赞.svg);
+	background-size: cover;
+	margin-top: 2px;
+}
+
+.mingzi {
+	width: 300px;
+	height: 15px;
+	font-size: 14px;
+	text-indent: 10px;
+	color: #3F51B5;
+}
+
+.pinglun {
+	width: 80%;
+	height: 28px;
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.zhaoxiangji {
+	width: 28px;
+	height: 28px;
+	
+	border-radius: 6px;
+}

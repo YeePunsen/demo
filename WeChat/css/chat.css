@@ -1,0 +1,188 @@
+.list {
+	width: 100%;
+	height: 100%;
+	margin-top: 80px;
+	
+	
+}
+.chat-foot {
+	height: 50px;
+	width: 100%;
+	
+	display: flex;
+	
+	position: fixed;
+	bottom: 0px;
+	background: #E0E0E0;
+	justify-content:space-between;
+}
+.chatleft{
+	width: 76%;
+	height: 50px;
+	display: flex;
+	
+}
+.yuyin{
+	width: 50px;
+	height: 50px;
+	
+}
+.yuyin-pho{
+	width: 30px;
+	height: 30px;
+	background-image: url(../img/微信/语音.svg);
+	background-size: cover;
+	margin:10px 10px 5px 10px;
+}
+.daziqu{
+	width:95%;
+	height: 50px;
+	
+
+	
+}
+.daiziqu-text{
+	width: 1000px;
+	height: 30px;
+	border: 0px;
+	border-bottom: 1px solid lawngreen;
+	margin:10px 10px 5px 10px;
+	background: #E0E0E0;
+	outline: medium;
+}
+.chat-foot-right{
+	width: 24%;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+}
+.biaoqing-pho{
+	width: 30px;
+	height: 30px;
+
+	margin-top: 10px;
+	background-image: url(../img/微信/表情3.svg);
+	background-size: contain;
+}
+.jiahao-pho{
+	width: 30px;
+	height: 30px;
+	background-image:  url(../img/微信/加.svg);
+	background-size: contain;
+	margin-top: 10px;
+}
+.content2 {
+	height: 50px;
+	
+	
+	align-items: center;
+	justify-content: space-between;
+	display: flex;
+	flex-flow: row nowrap;
+	padding: 0px 4px 0px 4px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.mid-time{
+	width: 70px;
+	height: 20px;
+	background: #BDBDBD;
+	font-size: 13px;
+	text-align: center;
+	color: whitesmoke;
+	line-height: 20px;
+	margin: 0 auto;
+	border-radius: 4px;
+}
+
+.chat-content-left{
+	width: 50%;
+	height: 50px;
+	
+	display: flex;
+}
+.content-left-pho{
+	width: 35px;
+	height: 35px;
+	
+}
+.content-left-pic{
+	width: 35px;
+	height: 35px;
+	background-image:url(../img/微信/ls.jpg);
+	background-size: cover;
+	margin: 5px 1px 2px 4px;
+}
+.chat-sanjiao{
+	width: 0px;
+	height: 0px;
+	
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 10px solid white;
+	transform: rotate(-90deg);
+	margin-top: 20px;
+	margin-left: 5px;
+}
+.chat-contents{
+	width: 80px;
+	height: 35px;
+	background: white;
+	margin: 5px 20px 2px 0px;
+	text-align: center;
+	line-height: 35px;
+	font-size: 18px;
+	border-radius: 5px;
+	
+}
+.chat-content-right{
+	width: 50%;
+	height: 50px;
+	
+	display: flex;
+	flex-flow: row-reverse;
+}
+.chat-sanjiao-right{
+	width: 0px;
+	height: 0px;
+	
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 10px solid #9CCC65;
+	transform: rotate(90deg);
+	margin-top: 20px;
+	margin-right: 5px;
+}
+.chat-contents2{
+	width: 80px;
+	height: 35px;
+	background: white;
+	margin: 5px 0px 2px 20px;
+	text-align: center;
+	line-height: 35px;
+	font-size: 18px;
+	border-radius: 5px;
+	
+}
+.yuyin-pic{
+	width: 25px;
+	height: 25px;
+	background-image: url(../img/微信/语音标志.svg);
+	background-size: cover;
+	margin-left: 12px;
+	margin-top: 7px;
+}
+.chat-number{
+	width: 20px;
+	height: 20px;
+	margin-top: 15px;
+	margin-left: -10px;
+	color: #9E9E9E;
+}
+.dian{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: red;
+	margin-top: 20px;
+}
