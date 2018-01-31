@@ -44,11 +44,11 @@
 						<div id="shengyu"></div>
 					</div>
 					<div class="text">中国移动 4G</div>
-					<div class="xinhao">
+					<div class="xinhao" >
 						<div class="wifi">
 							<div class="wifi-pic"></div>
 						</div>
-						<div class="xinhao">
+						<div class="xinhao" >
 							<div class="liantong">
 								<div class="liantong-pic"></div>
 							</div>
@@ -61,6 +61,7 @@
 				</div>
 			</div>
 			<!--微信头部-->
+			
 			<div id="header">
 				<div class="header-left">微信(5)</div>
 				<div class="head-right">
@@ -106,7 +107,7 @@
 			</div>
 
 			<!--微信身体部分-->
-
+			<div style="width: 100%;">
 			<div id="list">
 
 				<a class="content1" href="chat.html">
@@ -528,12 +529,13 @@
 				</div>
 
 			</div>
+			</div>
 			<!--微信底部-->
 			<div class="foot">
 				<div class="foot-list">
 					<div class="waiceng">
 						<div class="pic"></div>
-						<p style="color: #008000;">微 信</p>
+						<p style="color: #9E9E9E;">微 信</p>
 					</div>
 
 				</div>
@@ -562,3 +564,23 @@
 	</body>
 
 </html>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script>
+	$(function(){
+		$(".pic").click(function(){
+			$("#list").css({"display":"block"}).siblings().css({"display":"none"})
+		});
+		
+		$(".pic2").click(function(){
+			$("#address-book").css({"display":"block"}).siblings().css({"display":"none"})	
+		});
+		$(".pic3").click(function(){
+			$("#found-list").css({"display":"block"}).siblings().css({"display":"none"})
+		})
+		$(".pic4").click(function(){
+			$("#me-list").css({"display":"block"}).siblings().css({"display":"none"})	
+		});
+	});
+	
+	
+</script>
